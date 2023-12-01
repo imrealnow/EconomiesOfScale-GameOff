@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8152857820760080008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6878824857987918236}
+  - component: {fileID: 1381222833294243082}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6878824857987918236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152857820760080008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381222833294243082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152857820760080008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862901a34c14a5c40943c33d2bd8f33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySettings:
+  - enemyPrefab: {fileID: 1570746137570461243, guid: ae2637b2b0a85534d8c1ccc1b799fc1f, type: 3}
+    spawnCost: 1
+  - enemyPrefab: {fileID: 1570746137570461243, guid: 7c47dc32d7cdc014397002380504c91a, type: 3}
+    spawnCost: 2
+  initialSpawnDelay: 1
+  spawnFrequency: 1
+  minDistanceFromPlayer: 7
+  maxDistanceFromPlayer: 10
+  maxEnemies: 10
+  playerPosition: {fileID: 11400000, guid: 6e699f79254ce4f47a5dde36857ded89, type: 2}
+  poolManager: {fileID: 11400000, guid: e138e9f303d476240b333af0d56b7dcd, type: 2}
+  enemySet: {fileID: 11400000, guid: e7b71bb54a4b7c145b4574a55b37e823, type: 2}
+  spawnTriggerEvent: {fileID: 11400000, guid: 93af0247bd689ba43811cc2526254baa, type: 2}

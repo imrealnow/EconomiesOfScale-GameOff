@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7288964457581767356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30aac7c0a4fa8514f9eec6cb2e9f9db7, type: 3}
+  m_Name: AreaEffect
+  m_EditorClassIdentifier: 
+  effectsToApply:
+  - {fileID: 11400000, guid: 33a6e86ad61806d4488a3714faec15e9, type: 2}
+  - {fileID: 11400000, guid: 6eb15b6129759b541aef0a14d1112d94, type: 2}
+  radius: 1.5
+  maxHits: 20
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 129
+  lineOfSightBlockingLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  requireLineOfSight: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cac9270d6eb574c8e92cd75e0b7796, type: 3}
+  m_Name: ExplosiveProjectile
+  m_EditorClassIdentifier: 
+  effects:
+  - {fileID: -7288964457581767356}
+  - {fileID: 8204838265423562139}
+--- !u!114 &8204838265423562139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0173a70db2f16f34fa6f01536896c1b5, type: 3}
+  m_Name: SpawnEffect
+  m_EditorClassIdentifier: 
+  effectsManager: {fileID: 11400000, guid: 20ec02974479e9a4e8be2bead7548cc2, type: 2}
+  effect: {fileID: 109280252328015817, guid: 9131ef891e360c4479b90bf1a46d5b8a, type: 3}
+  offset: {x: 0, y: 0}
+  rotateToNormal: 0

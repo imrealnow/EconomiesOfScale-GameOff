@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda9b903324517b469a9e1135c84494a, type: 3}
+  m_Name: ItemSpawner
+  m_EditorClassIdentifier: 
+  enabled: 0
+  registeredItems:
+  - item: {fileID: 6201111764338956533, guid: 0a0f1f01fc68f794a8c8d0f9a0017af3, type: 3}
+    itemCount: 2
+    randomSpread: 0.5
+    spawnTriggerEvent: {fileID: 11400000, guid: 3e37a3c2347450748866fc12380a268c, type: 2}
+  - item: {fileID: 6201111764338956533, guid: 0a0f1f01fc68f794a8c8d0f9a0017af3, type: 3}
+    itemCount: 4
+    randomSpread: 1
+    spawnTriggerEvent: {fileID: 11400000, guid: 0b8a206f5596f8146afeb08449e52ba1, type: 2}
+  - item: {fileID: 395162797494689193, guid: cab6d3375b65683408c469f5e37b019e, type: 3}
+    itemCount: 1
+    randomSpread: 0
+    spawnTriggerEvent: {fileID: 11400000, guid: 3f55546e705d8e44d8753c86e919bcca, type: 2}
+  poolManager: {fileID: 11400000, guid: e138e9f303d476240b333af0d56b7dcd, type: 2}

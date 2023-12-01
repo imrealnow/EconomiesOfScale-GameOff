@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4d6d5fac6a769439882de844480410, type: 3}
+  m_Name: UIManager
+  m_EditorClassIdentifier: 
+  enabled: 0
+  uiCanvasPrefab: {fileID: 9174967737801578363, guid: f99d9095cce01c844b6a6dd5b7e4b460, type: 3}
+  defaultScreen: {fileID: 3246174828501902972, guid: 7bb35a3e9eafd1540b8775bb3d45e39c, type: 3}
+  registeredScreens:
+  - panelPrefab: {fileID: 3246174828501902972, guid: 7bb35a3e9eafd1540b8775bb3d45e39c, type: 3}
+    openTrigger: {fileID: 11400000, guid: 95a9dd9c31942a34190d04391aa0debc, type: 2}
+    closeTrigger: {fileID: 11400000, guid: cb1177aff8f18ec4f905af1dfd24dfec, type: 2}
+  - panelPrefab: {fileID: 4384879709469978637, guid: d5ed56af6a4f1224abcc47b023ce34d8, type: 3}
+    openTrigger: {fileID: 11400000, guid: 39b3665218ef58547ab26e97d8a3e7e5, type: 2}
+    closeTrigger: {fileID: 11400000, guid: 4816a577c3914eb4d80efc1312cfe218, type: 2}
+  - panelPrefab: {fileID: 1643125323514453027, guid: 0849769bc9638b3459bab4576834a563, type: 3}
+    openTrigger: {fileID: 11400000, guid: 777a411340c23fb4da1e7135abf332bd, type: 2}
+    closeTrigger: {fileID: 11400000, guid: 33f479cfcd5708240809247242d568bb, type: 2}
+  - panelPrefab: {fileID: 467833879359313276, guid: 62663a3f874eb79469bb291fbb71b4d9, type: 3}
+    openTrigger: {fileID: 11400000, guid: ae1c3d684efd2174184776ee5d4e5b58, type: 2}
+    closeTrigger: {fileID: 11400000, guid: 80501f56ea9857a48969ca139963542b, type: 2}
+  closeCurrentScreen: {fileID: 11400000, guid: c38df7a77f3f57f4db6338b614f62322, type: 2}

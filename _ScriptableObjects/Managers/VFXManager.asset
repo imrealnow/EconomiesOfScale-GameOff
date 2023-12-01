@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a5f930f878b454ab2b6c336678c4b1, type: 3}
+  m_Name: VFXManager
+  m_EditorClassIdentifier: 
+  enabled: 0
+  vfxSettings: []
+  eventEffects:
+  - vfx: {fileID: 3793949288249531985, guid: 92744db0f90e00748b08cfcb9d202606, type: 3}
+    triggerEvent: {fileID: 11400000, guid: f1409c62671959e4e8ae5f37b06b7233, type: 2}
+    positionOffset: {x: 0, y: 0, z: 0}
+  - vfx: {fileID: 8839227844036675297, guid: fcba2f6e1406a404baa907ad1da49060, type: 3}
+    triggerEvent: {fileID: 11400000, guid: 3f55546e705d8e44d8753c86e919bcca, type: 2}
+    positionOffset: {x: 0, y: 0.1, z: 0}

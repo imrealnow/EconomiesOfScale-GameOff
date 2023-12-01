@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7bd696d1bd74914e8bef65985cda04c, type: 3}
+  m_Name: IncreaseProjectileDamage
+  m_EditorClassIdentifier: 
+  upgradeName: Upgrade Ammunition
+  upgradeDescription: Increase damage
+  upgradeIcon: {fileID: 21300000, guid: bfea1b8d2c965404d905d36d794f26b3, type: 3}
+  cost: 100
+  infinitelyPurchasable: 1
+  costIncreasePerPurchase: 50
+  requiredUpgrades: []
+  upgradesManager: {fileID: 11400000, guid: 039d14dcb9882d14a906ee4f66b624c0, type: 2}
+  playerGold: {fileID: 11400000, guid: 39e861ecd7f00ea45a0b4ca533ce7c09, type: 2}
+  purchaseTrigger: {fileID: 0}
+  applyUpgrade:
+    m_PersistentCalls:
+      m_Calls: []
+  scaleAmount: 1.02
+  floatToScale:
+  - {fileID: 11400000, guid: 07bf9cd64558df742a211b686b5fff5a, type: 2}

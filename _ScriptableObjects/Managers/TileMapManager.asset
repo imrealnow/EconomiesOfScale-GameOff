@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd3fe3fbb0e44a42add71a40b3c2d8a, type: 3}
+  m_Name: TileMapManager
+  m_EditorClassIdentifier: 
+  enabled: 0
+  poolManager: {fileID: 11400000, guid: e138e9f303d476240b333af0d56b7dcd, type: 2}
+  extendRoomLeft: {fileID: 11400000, guid: 8517593f8a9474f4c80a62523b3ecff3, type: 2}
+  extendRoomRight: {fileID: 11400000, guid: 5de7fbf8c64638144a9436f47469a770, type: 2}
+  extendRoomUp: {fileID: 11400000, guid: 41f1369ad0ab5b34fa826839af6dc3b5, type: 2}
+  extendRoomDown: {fileID: 11400000, guid: 639d236ceeae65b44a14477441d102af, type: 2}
+  roomPrefabs:
+  - {fileID: 3763232809388970584, guid: 145f8f52bdef83d4c96b27696a85bb2f, type: 3}
+  - {fileID: 668675844697501016, guid: 61dbe80f5bc924f45b1a303f4977bb96, type: 3}
+  - {fileID: 5355884461682466144, guid: 0d1f6e2d9f80a2547a8a3cdd51f451f7, type: 3}
+  - {fileID: 5978141312589174500, guid: 7a80f195560769e42a2f9a761f6bd26b, type: 3}
+  - {fileID: 5346153391981183939, guid: 7f953b27ce53ccb43a8e6316bb3cc507, type: 3}
+  - {fileID: 6944998426008617154, guid: 058bc41fa719b04439a4a6c5f04fd112, type: 3}
+  - {fileID: 8433421456436424737, guid: 7263fb7ae40eab746a18f4565f5d4f4e, type: 3}
+  - {fileID: 7197383209910607615, guid: 7f6463b85410e0841b38e94b6ec68c6a, type: 3}
+  - {fileID: 637673468228391867, guid: dc589819985817e4f94d6a05f6668557, type: 3}
+  - {fileID: 2020722833234650463, guid: 02a178c4a4a3d7b4fadc91b58d52e0e3, type: 3}
+  hallwayPrefabs:
+  - {fileID: 3753672186034486248, guid: 230f0f2929c23f942a89f413e008a825, type: 3}
+  - {fileID: 1152194298941872729, guid: 9ae56fc661d01e34abbf30453afb5450, type: 3}
+  roomGenerated: {fileID: 11400000, guid: 7169774d1ad471f4b9f71df1daf98c08, type: 2}
+  roomReset: {fileID: 11400000, guid: 7ce7ddc91f6399946949415bfa9cff4b, type: 2}

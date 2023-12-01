@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6531060784964850801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9255b2a62d0633b4f82bc5f22bdfe044, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 11400000, guid: 9647a5d48412dd84597b045e87bae522, type: 2}
+  clip: {fileID: 8300000, guid: 79c4380d9b5a2cf46b81ede48653ed0c, type: 3}
+  volume: 0.3
+  pitch: 1
+  increasePitchOnConsecutivePlays: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cac9270d6eb574c8e92cd75e0b7796, type: 3}
+  m_Name: GoldCoin
+  m_EditorClassIdentifier: 
+  effects:
+  - {fileID: 6353014109223499249}
+  - {fileID: -6531060784964850801}
+  - {fileID: 4649235100639043499}
+--- !u!114 &4649235100639043499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b12f10b4ac612842a5c717ca31130af, type: 3}
+  m_Name: DisableSelf
+  m_EditorClassIdentifier: 
+--- !u!114 &6353014109223499249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d919da634e2f8eb428092be0bd540e3c, type: 3}
+  m_Name: ChangeSInt
+  m_EditorClassIdentifier: 
+  intVariable: {fileID: 11400000, guid: 39e861ecd7f00ea45a0b4ca533ce7c09, type: 2}
+  amount: 10

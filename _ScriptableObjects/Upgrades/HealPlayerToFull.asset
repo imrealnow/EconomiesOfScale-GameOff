@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b3b2c70922134c93015d75c41f3d7, type: 3}
+  m_Name: HealPlayerToFull
+  m_EditorClassIdentifier: 
+  upgradeName: Heal To Full
+  upgradeDescription: Heal yourself back up to full health. Be careful though, your
+    body will build tolerance to the nanoscales.
+  upgradeIcon: {fileID: 21300000, guid: 8d20ac23231ed3a40be1d9d0b5c25caa, type: 3}
+  cost: 100
+  infinitelyPurchasable: 1
+  costIncreasePerPurchase: 50
+  requiredUpgrades: []
+  upgradesManager: {fileID: 11400000, guid: 039d14dcb9882d14a906ee4f66b624c0, type: 2}
+  playerGold: {fileID: 11400000, guid: 39e861ecd7f00ea45a0b4ca533ce7c09, type: 2}
+  purchaseTrigger: {fileID: 11400000, guid: 23a94b82616934740a57840e98ebcbf7, type: 2}
+  applyUpgrade:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 9b55aa49ae108bb4c8504abb38b81c67, type: 2}
+        m_TargetAssemblyTypeName: SharedVariable`1[[System.Single, mscorlib
+        m_MethodName: set_Value
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 100
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
